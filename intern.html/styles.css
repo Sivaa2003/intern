@@ -1,0 +1,71 @@
+body{
+    
+}
+nav{
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+    background-color: beige;
+}
+ul{
+    display: flex;
+    list-style: none;
+    transition: all;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-variant: small-caps;
+}
+li{
+    margin: 15px;
+}
+button{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.low{
+    justify-content: space-around;
+}
+.Center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.button button
+{
+    margin-top: 100px;
+    padding: 20px;
+    width: 200px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+.Low{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+   
+}
+.box{
+    margin-top: 100px;
+ border: none ;
+ margin-right: 1200px;
+}
+body{
+    background-image: url(travel.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

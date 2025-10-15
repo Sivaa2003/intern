@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+    padding:opx;
+}
+.search input{
+    display: flex;
+    border-radius: 50px;
+    margin:  auto;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 40px;
+    padding-left: 20px;
+}
+.icons{
+    display: flex;
+    justify-content: center; 
+}
+text{
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+img{
+    height: 50px;
+    cursor: pointer;
+   margin-right: 20px;
+    display: flex;
+    border-radius: 10px;
+}
+.news{
+    display: flex;
+}
+*{
+    background-color: cornsilk;
+}
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container div
+{
+    height: 300px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+.container a img
+{
+    width: 400px;
+    height: 300px;
+}
+
